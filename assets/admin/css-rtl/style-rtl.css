@@ -1,0 +1,63 @@
+/*================================================================================
+	Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
+	Version: 1.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+A FILE FOR RTL SUPPORT RELATED ONLY
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+div.upload-image
+{
+    position: relative;
+    height: 40px
+}
+input.input-upload
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+}
+div.custom-upload
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+div.custom-upload div:first-child
+{
+    width: 70%;
+    padding: 8px 15px;
+    background: #eee;
+    border-radius: 5px
+}
+div.custom-upload div:last-child
+{
+    width: 30%;
+    text-align: center;
+    padding-top: 8px;
+    background: #9d0c22;
+    color: #eee;
+    border-bottom-ledt-radius: 5px;
+    border-top-left-radius: 5px
+}
+
+@media (min-width: 991.98px) {
+    .scrolled-table {
+        display: block;
+        width: 100%;
+        min-height: 0.01%;
+        overflow-x: auto;
+    }
+}
